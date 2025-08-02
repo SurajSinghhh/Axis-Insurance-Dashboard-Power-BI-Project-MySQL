@@ -112,9 +112,11 @@ This dashboard solves that problem by presenting interactive KPIs and visuals fo
 If you’d like to connect or give feedback:
 
 🔗 GitHub: github.com/SurajSinghhh
-💼 LinkedIn: Suraj Singh
+
+💼 LinkedIn:https://www.linkedin.com/in/suraj-singh-33b287377/
 📧 Email: atsurajsingh@gmail.com
 📱 Phone: +91 7004171398
+
 🔍 Looking for Data Analyst Roles
 I'm currently exploring Data Analyst opportunities where I can contribute with analytical insights, data visualization, and strong business sense. If this project resonates with you, I'd love to connect!
 
