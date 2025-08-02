@@ -1,107 +1,126 @@
-# Axis Insurance Dashboard – Power BI Project
+# 🛡️ Axis Insurance Dashboard – Power BI + MySQL
 
-This project presents an interactive dashboard developed using Power BI and Microsoft SQL Server. It focuses on visualizing key insurance data, including claims, policies, customer demographics, and financial performance. The goal is to provide insurance stakeholders with meaningful insights to support better decision-making.
-
----
-
-## Project Overview
-
-The Axis Insurance Dashboard is designed to help understand trends in policy sales, claims, and customer segments. The dataset includes policy types like Auto, Health, Life, Home, and Travel, with details on claim status, coverage, and premium amounts.
-
-The data used in this project is entirely fictional and was created specifically for demonstration and educational purposes. It was collected, cleaned, and modeled by me as part of the full BI project lifecycle.
+📂 **Repository**: [Axis-Insurance-Dashboard-Power-BI-Project-MySQL](https://github.com/SurajSinghhh/Axis-Insurance-Dashboard-Power-BI-Project-MySQL)
 
 ---
 
-## Responsibilities and Workflow
+## 📌 Project Overview
 
-- Data gathering and creation (fictional data)
-- Data cleaning and transformation using Microsoft SQL Server
-- Data modeling in Power BI
-- Designing visual reports and dashboards
-- Writing DAX measures and calculated columns
-- Implementing row-level security (RLS)
-- Scheduling dataset refresh in Power BI Service
-- Publishing and sharing reports with end users
+This Power BI dashboard simulates insights for **Axis Insurance**, designed to provide executives and analysts with a clear understanding of policy sales, claim approval patterns, and regional performance.  
+The data was processed using **MySQL**, and the dashboard was built in **Power BI Desktop**.
+
+It showcases an end-to-end data analysis pipeline — from data extraction to dashboard publishing — that supports strategic decision-making.
 
 ---
 
-## Key Features
+## 🧩 Problem Statement
 
-- Summary KPIs showing total premium, coverage, and claim amounts
-- Claim status analysis (Settled, Rejected, Pending)
-- Policy distribution by age group and policy type
-- Claim amounts by customer demographics
-- Active vs inactive policy breakdown
-- Tabular view of coverage amount segmented by policy type and claim status
+Insurance companies often struggle to visualize and monitor:
 
----
+- Performance of **agents and sales regions**
+- **Claim approval rates** and pending requests
+- Distribution of policies by **type and customer demographics**
 
-## Tools and Technologies
-
-- Microsoft SQL Server – Data cleaning and transformation  
-- Power BI Desktop – Dashboard development and visualizations  
-- DAX – Custom measures and calculations  
-- Excel – Initial formatting and data exploration  
+This dashboard solves that problem by presenting interactive KPIs and visuals for policy types, customer gender, region-wise sales, and approval trends — helping management take data-driven actions.
 
 ---
 
-## Insights Discovered
+## 🧪 Tools & Technologies Used
 
-- Customers aged 50 and above hold the most policies and have the highest claim volume.
-- Travel insurance has the highest total claims and coverage amount.
-- A notable percentage of claims are either rejected or pending, especially in Health and Travel segments.
-- Approximately 42% of policies are inactive, indicating a potential area for retention improvement.
-
----
-
-## Future Improvements
-
-- Add time-based trends for monthly or yearly tracking of premiums and claims
-- Introduce segmentation by geography or agent performance
-- Integrate customer feedback to track satisfaction and service quality
+| Tool / Tech     | Purpose                              |
+|-----------------|--------------------------------------|
+| Power BI        | Dashboard design and data visualization |
+| MySQL           | Backend data handling and querying   |
+| DAX             | Custom KPIs and metrics              |
+| CSV / SQL Tables| Source data                          |
 
 ---
 
-## Project Files
+## 🛠️ Steps Followed
 
-- `Axis_Insurance_Dashboard.pbix` – Power BI dashboard
-- `InsuranceData.csv` – Raw data used for analysis
-- `Axis_Insurance_Dashboardd.pdf` – Dashboard preview in PDF format
+1. **Data Source**  
+   - Insurance dataset loaded into **MySQL** database.
+   - Tables connected to **Power BI** using MySQL connector.
+
+2. **Data Cleaning & Transformation**
+   - Used **Power Query** to inspect and clean data.
+   - Removed nulls and duplicates.
+   - Transformed categorical data where required.
+
+3. **Dashboard Design**
+   - Created **slicers** for filters (Gender, Region, Policy Type).
+   - Added **card visuals** to track KPIs like:
+     - Total Policies Sold
+     - Approved vs Rejected Claims
+     - Region-wise Sales
+   - Built **bar charts**, **stacked visuals**, and **donut charts** for visual storytelling.
+   - Added company branding using **images, shapes**, and **text boxes**.
+
+4. **DAX Calculations**
+   - Created calculated measures for:
+     - % of claims approved
+     - Total premium collected
+     - Agent-wise policy sales
+
+5. **Deployment**
+   - Dashboard was tested on **Power BI Desktop**.
+   - Can be published to **Power BI Service** for sharing with stakeholders.
 
 ---
 
-## Contact
+## 📊 Key Dashboard Features
 
-Feel free to connect for feedback, collaboration, or project discussion:
+- 📌 **Interactive Filters** (Policy Type, Region, Gender)
+- 📌 **Approval Rate KPIs**
+- 📌 **Agent-wise and Region-wise Sales**
+- 📌 **Claims Analysis** (Approved, Pending, Rejected)
+- 📌 **Responsive Visuals & Clean UI**
+- 📌 **Branded Layout** with Axis Insurance logo and colors
 
-- GitHub: [https://github.com/SurajSinghhh]
-- Email: atsurajsingh@gmail.com  
-- Phone: +91 7004171398  
-- LinkedIn: [Suraj Singh]  (https://www.linkedin.com/in/suraj-singh-33b287377/)
+---
+
+## 📈 Insights & Analysis
+
+### 🔹 Claim Analysis
+- Approved claims have higher frequency in **Urban** regions.
+- Certain agents have higher **rejection rates**, indicating a need for training or review.
+- Pending claims are **concentrated in 2-3 regions**, highlighting operational inefficiency.
+
+### 🔹 Sales Insights
+- **Life insurance policies** dominate overall sales.
+- **Business Class customers** opt more for long-term policy types.
+- **Male customers** are marginally more frequent purchasers.
+
+### 🔹 Regional Performance
+- The **North zone** leads in total policies issued.
+- The **South zone** shows higher average claim amounts but lower approval rates.
+
+---
+
+## 📸 Dashboard Preview
+
+<img width="1920" height="1080" alt="Final" src="https://github.com/user-attachments/assets/9e5cd6b9-e34f-4586-94a8-6832e9d09e7f" />
+
+<img width="1920" height="1080" alt="interactive" src="https://github.com/user-attachments/assets/c1dda40e-4324-435b-ad70-8e042c973e64" />
+<img width="1920" height="1080" alt="AGe" src="https://github.com/user-attachments/assets/a14f1792-d813-4428-b34a-e7a44da8152d" />
 
 
--- Samples :
-<img width="1920" height="1080" alt="Screenshot (315)" src="https://github.com/user-attachments/assets/4a11c588-3692-4133-b6a3-5286a61affee" />
-
-<img width="1920" height="1080" alt="Data cleaning" src="https://github.com/user-attachments/assets/6929b5d4-4ae4-47bb-a3a1-c5efff0a9fb7" />
-<img width="1920" height="1080" alt="AGe" src="https://github.com/user-attachments/assets/46136674-cc4b-4cda-9d8d-e9e064108079" />
-<img width="1920" height="1080" alt="interactive" src="https://github.com/user-attachments/assets/a8f9ff45-8cfe-4b07-a1e2-048ed19aa5e3" />
 
 
 
+📬 Contact Me
+If you’d like to connect or give feedback:
 
-
-
-
-
+🔗 GitHub: github.com/SurajSinghhh
+💼 LinkedIn: Suraj Singh
+📧 Email: atsurajsingh@gmail.com
+📱 Phone: +91 7004171398
+🔍 Looking for Data Analyst Roles
+I'm currently exploring Data Analyst opportunities where I can contribute with analytical insights, data visualization, and strong business sense. If this project resonates with you, I'd love to connect!
 
 
 
 
 
-
-
-
-
-
+## 📁 Repository Structure
 
